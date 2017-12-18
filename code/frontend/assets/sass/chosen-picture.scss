@@ -1,0 +1,30 @@
+section.chosen-picture {
+
+    padding-top: 30px;
+
+    .title {
+
+        font-size: 1.2em;
+
+    }
+
+    .img-holder {
+
+        margin: auto;
+        text-align: center;
+        width: 100%;
+
+        img.image {
+            padding: 10px;
+            margin: 20px;
+            width: auto;
+            height: 100%;
+            max-height: 500px;
+            -webkit-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+            -moz-box-shadow:    1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+            box-shadow:         1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+        }
+
+    }
+
+}

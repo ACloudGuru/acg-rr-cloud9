@@ -1,0 +1,17 @@
+{
+  "name": "ops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julian Pittas <julian.pittas@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless": "^1.24.1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.170.0"
+  }
+}

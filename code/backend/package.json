@@ -1,0 +1,14 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julian Pittas <julian.pittas@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.170.0"
+  }
+}
