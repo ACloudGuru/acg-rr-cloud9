@@ -5,7 +5,7 @@ const path   = require('path');
 
 try {
 
-    const config = JSON.parse(fs.readFileSync(path.resolve(__dirname, './config.json'), 'utf8'));
+    const config = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../config.json'), 'utf8'));
     
     const params = {
         Bucket: config.bucketName

@@ -17,8 +17,8 @@ echo "Copying pictures to S3 bucket"
 node sendPics.js ./images
 
 echo "Copying config"
-cp ./config.json ../code/frontend
-cp ./config.json ../code/backend
+cp ../config.json ../code/frontend
+cp ../config.json ../code/backend
 
 cd ../code/frontend
 
