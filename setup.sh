@@ -25,5 +25,7 @@ cd ../code/frontend
 echo "Installing frontend dependencies"
 npm install
 
+npm rebuild node-sass
+
 echo "Building frontend code"
-./node_modules/.bin/webpack
+npm run build
