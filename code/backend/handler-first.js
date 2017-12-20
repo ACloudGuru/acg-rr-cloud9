@@ -35,7 +35,6 @@ module.exports.handler = (context, event, callback) => {
 
             callback(null, {
                 statusCode: 200,
-                headers: CORS_HEADERS,
                 body: JSON.stringify({
                     imageUrl: `https://s3.amazonaws.com/${bucketName}/${chosenKey}`
                 })
