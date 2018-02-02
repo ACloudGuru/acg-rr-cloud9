@@ -21,6 +21,9 @@ chmod +x remove.sh
 ./remove.sh
 ```
 
+## Customisation
+Make sure to change the bucket name in `config.json` before you run the setup script
+
 
 ## Directory structure
 - ops - Contains all the code and files for the setup and removal of the project
